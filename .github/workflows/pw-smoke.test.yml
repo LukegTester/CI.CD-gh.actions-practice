@@ -18,7 +18,7 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: 22
-    - name: run Playwright smoke tests
+    - name: Display text on console
       run: echo "Running second workflow for Playwright smoke tests"
     - name: install dependencies 
       run: npm ci
