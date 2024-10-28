@@ -28,8 +28,8 @@ jobs:
        uses: actions/cache@v4
        id: playwright-cache
        with:
-         path: |
-           ~/.cache/ms-playwright
+           path: |
+             ~/.cache/ms-playwright
            key: ${{ runner.os }}-playwright
      - name: Install dependencies
        run: npm ci
